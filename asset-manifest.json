@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jerrits-pet-heaven/static/css/main.27c45a81.css",
+    "main.js": "/jerrits-pet-heaven/static/js/main.17359ff1.js",
+    "static/js/453.3665c4ea.chunk.js": "/jerrits-pet-heaven/static/js/453.3665c4ea.chunk.js",
+    "static/media/dog1.jpg": "/jerrits-pet-heaven/static/media/dog1.1388d9b4396d5203f716.jpg",
+    "static/media/catdog2.jpg": "/jerrits-pet-heaven/static/media/catdog2.a167ac3118ff327eefac.jpg",
+    "static/media/cat2.jpg": "/jerrits-pet-heaven/static/media/cat2.74db9962571e08507b28.jpg",
+    "static/media/catdog.jpg": "/jerrits-pet-heaven/static/media/catdog.11dc2f75b253bb7298be.jpg",
+    "static/media/logo.jpg": "/jerrits-pet-heaven/static/media/logo.60a9c8028c387241577f.jpg",
+    "static/media/dog3.jpg": "/jerrits-pet-heaven/static/media/dog3.96f43931a7bf475cf3a7.jpg",
+    "static/media/dog2.jpg": "/jerrits-pet-heaven/static/media/dog2.d3b1b64d4a7220019617.jpg",
+    "static/media/faq.png": "/jerrits-pet-heaven/static/media/faq.7ecd20bd056c6467ed4d.png",
+    "static/media/cat1.jpg": "/jerrits-pet-heaven/static/media/cat1.3b2068dbb339200ac3a2.jpg",
+    "static/media/tiktok.png": "/jerrits-pet-heaven/static/media/tiktok.49b1a7fdabdc892efbab.png",
+    "static/media/instagram.png": "/jerrits-pet-heaven/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/animal.png": "/jerrits-pet-heaven/static/media/animal.fa1cf7f41213b99ff8b3.png",
+    "static/media/faq2.png": "/jerrits-pet-heaven/static/media/faq2.92b70f1b6ead957b97cf.png",
+    "static/media/member.png": "/jerrits-pet-heaven/static/media/member.b650644c084d34302089.png",
+    "index.html": "/jerrits-pet-heaven/index.html",
+    "main.27c45a81.css.map": "/jerrits-pet-heaven/static/css/main.27c45a81.css.map",
+    "main.17359ff1.js.map": "/jerrits-pet-heaven/static/js/main.17359ff1.js.map",
+    "453.3665c4ea.chunk.js.map": "/jerrits-pet-heaven/static/js/453.3665c4ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c45a81.css",
+    "static/js/main.17359ff1.js"
+  ]
+}
