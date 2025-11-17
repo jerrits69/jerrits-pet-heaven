@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+/*Home page*/
+.homeContainer{
+    background-color: mistyrose;
+    font-family: "Newsreader", 'Times New Roman', Times, serif;
+}
+/*Hero*/
+.home1{
+    background-image: url("./catdog.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    height: 900px;
+}
+.home1box{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.home1 h1{
+    font-family: "Love Ya Like A Sister", 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.home1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home1 a:hover{
+    color: magenta;
+}
+/*Learn More*/
+.home2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    height: 600px;
+}
+.home2box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.home2box img{
+    max-width: 150px;
+    height: auto;
+}
+.home2box button{
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+.home2box button:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+/*About Us*/
+.home3{
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.home3 h1{
+    font-family: "Jersey 25", 'Times New Roman', Times, serif;
+}
+.home3box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    height: 500px;
+}
+.home3box img{
+    max-width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+.home3box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px;
+    max-width: 700px;
+}
+.home3box2 h2{
+    font-family: "Jersey 25", 'Times New Roman', Times, serif;
+}
+.home3box2 p{
+    font-size: 20px;
+}
+/*FAQs*/
+.home4{
+    height: 500px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.home4box{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.home4box img{
+    max-width: 200px;
+    height: auto;
+}
+.faqitems{
+    max-width: 500px;
+    width: 100%;
+}
+.fivefaq{
+    border-bottom: 5px solid black;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.onefaq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.droparrow{
+    width: 15px;
+    height: 15px;
+}
+.faqanswer{
+    margin-top: 10px;
+    padding-left: 10px;
+    color: black;
+}
+.faqsLink{
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    color: black;
+}
+.faqsLink:hover{
+    transform: scale(1.05);
+}
+/*Footer*/
+.home5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: lightslategrey;
+}
+.home5box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+}
+.home5box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.socialMedia{
+    max-width: 200px;
+}
+.socialMedia img{
+    max-width: 50px;
+    height: auto;
+    padding: 5px;
+}
+/*Adopt page*/
+.adoptContainer{
+    text-align: center;
+    padding: 20px;
+}
+.adoptContainer h1{
+    font-family: "Rubik Dirt", 'Times New Roman', Times, serif;
+}
+.adoptRow{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 80px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.animalBox{
+    background-color: oldlace;
+    border: 10px solid oldlace;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;   
+}
+.animalPhoto{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.animalDetails{
+    font-family: "Source Serif 4", 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.animalDetails button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: orchid;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.animalDetails button:hover{
+    transform: scale(1.1);
+}
+.adoptFormContainer{
+    border-top: 5px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 10px;
+    gap: 30px;
+}
+.adoptFormImage{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid lightgreen;
+}
+.adoptForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 500px;
+}
+.adoptForm input, textarea{
+    padding: 5px;
+    border-radius: 10px;
+}
+.adoptForm button{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+}
+/*Release Pet*/
+#releasepet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.releasepetbox{
+    font-family: "Newsreader", 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 15px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.releasepetbox h2{
+    text-align: center;
+}
+.releasepetbox label, input, select{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: text;
+}
+.releasepetbox textarea{
+    padding: 5px;
+    cursor: text;
+}
+.releasepetbox button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+}
+.releasepetbox button:hover{
+    transform: scale(1.2);
+    background-color: gold;
+    color: black;
+}
+.releasepet1, .releasepet2{
+    width: 100%;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.releasepet3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+/*Login form*/
+.loginPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    height: 300px;
+    border: 5px solid black;
+    background-color: palegreen;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+    gap: 10px;
+    justify-content: center;
+}
+.loginForm button{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: navajowhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginForm a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*Signup form*/
+.signupPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palegreen;
+}
+.signupContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    height: 400px;
+    border: 5px solid black;
+    background-color: paleturquoise;
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+    gap: 10px;
+    justify-content: center;
+}
+.signupForm button{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: navajowhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signupForm a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*Mobile version*/
+@media(max-width: 768px){
+    /*Hero section*/
+    .home1{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+        color: mintcream;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px 20px;
+        height: auto;
+    }
+    .home1 a{
+        color: mintcream;
+    }
+    .home1box{
+        max-width: 100%;
+    }
+    /*Learn more*/
+    .home2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    .home2box img{
+        max-width: 100px;
+    }
+    /*About us*/
+    .home3box{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .home3box img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .home3box2{
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .home3box2 p{
+        font-size: 18px;
+        line-height: 1.4;
+        word-wrap: break-word;
+    }
+    /*Faqs*/
+    .home4{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .home4box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .home4box img{
+        max-width: 120px;
+    }
+    /*Adopt page*/
+    .adoptRow{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .animalBox{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .adoptFormContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adoptFormImage{
+        width: 100%;
+        height: auto;
+    }
+    .adoptForm{
+        width: 100%;
+    }
+    /*Release pet form*/
+    .releasepetbox{
+        width: 80%;
+    }
+    /*Login, Signup form*/
+    .loginContainer, .signupContainer{
+        max-width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    .loginForm, .signupForm{
+        max-width: 100%;
+    }
+    /*Footer*/
+    .home5box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .home5{
+        padding: 20px;
+    }
+    .socialMedia{
+        max-width: 120px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .socialMedia img{
+        max-width: 40px;
+    }
+}

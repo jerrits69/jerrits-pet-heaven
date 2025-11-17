@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+h1{
+    font-family: "Lexend", 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.showAnimals{
+    text-align: center;
+    padding: 20px;
+}
+.catdogRow{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 100px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.catdogBox{
+    font-family: "Lexend", 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 10px solid aliceblue;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+.catdogBox:hover{
+    transform: scale(1.2);
+}
+.catdogPhoto{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
